@@ -1,0 +1,10 @@
+Given a graph G = (V, E) set of vertices and edges, Implement Breadth First Search algorithm. Follow the pseudo code (Fig 9.2) given in the LEDA text book.
+
+Input:
+The first line of the input contains the number of nodes in the graph.
+The second line of the input contains the node number which is used to start traversing the graph.
+From the third line of the input onwards, it contains the adjacency matrix of the graph.
+
+Output:
+The first line of the output should be the distance from S (Starting Node) to other nodes, separated by comma
+The second line of the output contains the BFS Order

@@ -1,0 +1,18 @@
+1,2,5,7,6,3,8,4
+1->2: Tree Edge / Forward Edge
+1->4: Tree Edge / Forward Edge
+1->7: Tree Edge / Forward Edge
+2->1: Backward Edge
+2->5: Tree Edge / Forward Edge
+2->6: Tree Edge / Forward Edge
+3->6: Backward Edge
+3->8: Tree Edge / Forward Edge
+4->1: Backward Edge
+5->2: Backward Edge
+5->7: Tree Edge / Forward Edge
+6->2: Backward Edge
+6->3: Tree Edge / Forward Edge
+7->1: Backward Edge
+7->5: Backward Edge
+8->3: Backward Edge
+The graph has cycles

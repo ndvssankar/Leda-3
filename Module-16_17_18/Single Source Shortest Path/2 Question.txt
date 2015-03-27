@@ -1,0 +1,31 @@
+Given a Graph G = (V, E) contains a set of vertices and an empty set of edges. Find the shortest distance from a source vertex to all other vertices using Single Source Shortest Path - Dijktra's Algorithm.
+
+Input:
+The first line of the input contains the number of vertices
+The second line of the input contains the source vertex
+The third line of the input contains the set of vertices separated by commas.
+From the fourth line of the input, contains the adjacency matrix.
+
+Output:
+Print the shortest distances from the source vertex to all other vertices. While printing follow the order defined in the third line of the input. If there is no path from source vertex to v1, print its distance from source to v1 in the format as s->v1:99999, otherwise print its path from soure to v1 and its distance. example : s->a->b->e:6 (path:distance)
+
+Example:
+Input:
+7
+s
+(s,a,b,c,d,e,f)
+0,2,0,0,10,0,0
+0,0,3,0,0,0,0
+0,0,0,2,0,1,0
+0,0,0,0,0,0,0
+4,0,5,0,0,0,0
+0,0,9,8,1,0,0
+0,0,0,0,0,7,0
+Output:
+s:0
+s->a:2
+s->a->b:5
+s->a->b->c:7
+s->a->b->e->d:7
+s->a->b->e:6
+s->f:99999

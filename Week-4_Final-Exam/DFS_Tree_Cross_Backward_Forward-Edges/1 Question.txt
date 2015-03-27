@@ -1,0 +1,13 @@
+Modify the DFS algorithm that has been given in the text book, such that label each edge with either tree edge / forward edge or backward edge or cross edge. Check whether the given graph is cyclic or not.
+
+Input :
+The first line of the input contains the number of vertices.
+The second line of the input contains a positive value, 0 indicates Adjacency List and 1 indicates Adjacency Matrix
+The third line of the input contains the starting vertex where you need to traverse the graph using DFS.
+The fourth line contains the set of vertices (names) separated by commas (,).
+The fifth line onwards contains the Adjacency Matrix / List based on the second line of the input.
+
+Output:
+The first line contains the Depth First Search traversal order.
+From the second line onwards label each edge with its type (The type of edge may be tree / forward , backward, cross).
+The last line of the output should be, if the graph is acyclic, Print "The graph has no cycles" otherwise Print "The graph has cycles".

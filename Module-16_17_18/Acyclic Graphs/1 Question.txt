@@ -1,0 +1,10 @@
+Given a graph G = (V, E) consists of set of non-empty set of vertices and empty set of edges. Check whether the graph is cyclic or acyclic.
+
+Input:
+The first line of the input contains the number of vertices
+The second line of the input contains the source vertex
+The third line contains a value.
+From the third line of the input, contains the adjacency matrix or adjacency list. It depends on the third line of the input. if the value is 1 then it is adjacency matrix, otherwise adjacency list.
+
+Output:
+If the graph has no cycles, print "Graph has no cycles" otherwise "Graph has cycles" without double quotes.

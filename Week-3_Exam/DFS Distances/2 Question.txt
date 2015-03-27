@@ -1,0 +1,7 @@
+Implement Depth First Search algorithm.
+Input:
+The first line of the input contains the number of nodes in the graph.
+The second line of the input contains the node number which is used to start traversing the graph.
+From the third line of the input onwards, it contains the adjacency matrix of the graph.
+Output:
+Print the DFS Order.

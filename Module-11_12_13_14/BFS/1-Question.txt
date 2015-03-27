@@ -1,0 +1,9 @@
+Given a graph G = (V,E) consisting of vertices and edges. Traverse the graph using  breadth first search.
+Input:
+The first line of the input contains the number of vertices.
+The second line of the input contains the type of the graph representation. 0 indicates Adjacency List and 1 indicates Adjacency Matrix and 2 indicates Adjacency Array.
+From the third line of the input, it contains the adjacency list / adjacency matrix.
+Output:
+Print the vertices in which you have visited.
+
+Note : While visiting the nodes, follow lexicographic order.

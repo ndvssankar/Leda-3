@@ -1,0 +1,37 @@
+BST Rotation.
+Implement Binary Search Tree by inserting all the elements into it. After Insertion, Perform rotations in order to make a particular node as root.
+Input:
+The first line of the input contains the sequence of elements to be inserted into the binary search tree.
+The second line of the input contains an element which needs to be make it as root by performing rotations.
+The third line of the input contains either 1 / 2 / 3. consider 1 for pre-order traversal, 2 for in-order traversal and 3 for post-order traversal.
+Output:
+The first line of the output should be the number of rotations to be performed.
+The second line of the output should be the sequence of elements to be printed out after rotation and based on the third line of the input.
+
+Example:
+17,7,3,2,5,13,11,19
+11
+3
+                    17
+            7               19
+    3            13 
+2     5     11
+Now you need to make 11 as root. Perform Right Rotation on 13 which gives
+                    17
+            7               19
+    3            11 
+2     5              13
+Now Perform Left Rotation on 7 which gives 
+                    17
+            11               19
+        7     13
+    3        
+2     5 
+Now Perform Right Rotation on 17 which gives
+               11
+        7              17
+    3              13       19
+2     5
+Now the output would be as follows
+3  (Number of Rotations)
+2,5,3,7,13,19,17,11 (Post Order Traversal)

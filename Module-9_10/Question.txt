@@ -1,0 +1,22 @@
+Given a graph G = (V,E) where V is set of vertices and E is set of edges. Represent the graph in memory using Adjacency matrix and adjacency lists.
+Input :
+The first line of the input contains the pairs of vertices which means there is a direct edge from v1 to v2 and is represented as (v1,v2).
+Output :
+Adjacency Matrix.
+Adjacency Lists.
+Example:
+Input:
+(a,b), (a,c), (a,d), (b,c), (c,d), (c,e), (d,d), (d,b)
+Output:
+  a b c d e
+a 0 1 1 1 0    
+b 0 0 1 0 0
+c 0 0 0 1 1
+d 0 1 0 1 0
+e 0 0 0 0 0
+ 
+a->b->c->d->null
+b->c->null
+c->d->e->null
+d->d->b->null
+e->null

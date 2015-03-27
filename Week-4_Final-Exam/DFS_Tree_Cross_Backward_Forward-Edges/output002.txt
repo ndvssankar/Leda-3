@@ -1,0 +1,8 @@
+1,2,3,4,5
+1->2: Tree Edge / Forward Edge
+1->5: Tree Edge / Forward Edge
+2->3: Tree Edge / Forward Edge
+3->4: Tree Edge / Forward Edge
+3->5: Tree Edge / Forward Edge
+4->5: Tree Edge / Forward Edge
+The graph has no cycles

@@ -1,0 +1,12 @@
+  a b c d e
+a 0 1 1 1 0
+b 0 0 1 0 0
+c 0 0 0 1 1
+d 0 1 0 1 0
+e 0 0 0 0 0
+
+a->b->c->d->null
+b->c->null
+c->d->e->null
+d->b->d->null
+e->null

@@ -1,0 +1,13 @@
+s,b,e,c,f,g,d
+s->b: Tree Edge / Forward Edge
+s->c: Tree Edge / Forward Edge
+s->d: Tree Edge / Forward Edge
+b->e: Tree Edge / Forward Edge
+d->e: Cross Edge
+d->f: Cross Edge
+e->c: Tree Edge / Forward Edge
+e->f: Tree Edge / Forward Edge
+e->g: Tree Edge / Forward Edge
+g->b: Backward Edge
+g->f: Cross Edge
+The graph has cycles
