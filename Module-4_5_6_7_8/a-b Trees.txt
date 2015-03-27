@@ -1,0 +1,5 @@
+Given a list of elements, build an (a,b)-Trees.
+Implement the following functions:
+* Insert an element (with balancing)
+* Search for an element
+* Remove an element
